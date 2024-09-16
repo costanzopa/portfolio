@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Personal Portfolio Website</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- font awesome -->
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <!---- Main Start -->
+    <div class="main">
+
+        <!-- Home Section Start -->
+        <section class="home-section align-items-center hidden">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="home-text">
+                        <p>Hello, I'm</p>
+                        <h1>Pablo Costanzo</h1>
+                        <h2>Software Engineer</h2>
+                        <a href="" class="btn">more about me</a>
+                        <a href="" class="btn">portfolio</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="img/profile-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Home Section End -->
+
+        <!-- About Section Start -->
+        <section class="about-section sec-padding hidden">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>about me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="img/about-img.png" alt="about img">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p> I'm a Computer Engineering student at the University of Buenos Aires, currently working as a
+                            Sofware Engineer at MercadoLibre, researching, planning and developing different
+                            scalable solutions that bring value to shipping mobile team. I'm passionate about
+                            the web and the software development.</p>
+                        <h3>skills</h3>
+                        <div class="skills">
+                            <div class="skill-item">kotlin</div>
+                            <div class="skill-item">java</div>
+                            <div class="skill-item">spring</div>
+                            <div class="skill-item">javascript</div>
+                            <div class="skill-item">node js</div>
+                            <div class="skill-item">react</div>
+                            <div class="skill-item">docker</div>
+                        </div>
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item active" data-target="experience">experience</button>
+                            <button type="button" class="tab-item" data-target="education">education</button>
+                        </div>
+                        <!-- Experience Start -->
+                        <div class="tab-content active" id="experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2021 - Now</span>
+                                    <h4>Software Engineer - <span>Mercado Libre</span></h4>
+                                    <p>Development of solutions in Kotlin and Java for the Driver Experience team.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2018 - 2021</span>
+                                    <h4>Senior FullStack Developer - <span>Southend Corp S.A.</span></h4>
+                                    <p>Research, planning and development of various scalable solutions that brings
+                                        value to SAP Ariba / FieldGlass clients, using Rest and SOAP APIs, taking part
+                                        in the frontend, backend and infrastructure (React, Spring Boot with Docker and
+                                        Cloud Foundry).</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2014 - 2018</span>
+                                    <h4>Developer Analyst - <span>SouthEnd S.A.</span></h4>
+                                    <p>Customization and development of Ariba modules for different clients by using the
+                                        Java Programming language. Architecture design and development of the supplier
+                                        management platform (Aquanima Network), based on Vaadin, Grails and Talend.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Experience End -->
+                        <!-- Education Start -->
+                        <div class="tab-content" id="education">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2007 - Now</span>
+                                    <h4>Informatic Engineering - <span>University of Buenos Aires</span></h4>
+                                    <p>Incomplete, provisionally left in 2018 in 5th year. The idea is to finish it
+                                        soon.
+                                    </p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2003 - 2006</span>
+                                    <h4>Secondary School- <span>Santa Teresita del Niño Jesús</span></h4>
+                                    <p>Bachelor of Economics and Management of Organizations</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Education End -->
+
+                        <a href="#" class="btn">download cv</a>
+                        <a href="#" class="btn">contact me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- Portfolio Section Start -->
+        <section class="portfolio-section sec-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>recent work</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--  Portfolio Item Start -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="img/portfolio/janchase-clothing.jpg" alt="portfolio item thumb">
+                        </div>
+                        <h3 class="portfolio-item-title">Janchase Clothing</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>
+                                    A progressive web application, which implements e-commerce in a portfolio project.
+                                </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li> Created - <span>April 2020</span></li>
+                                    <li> Technologies used - <span>React, Redux, Stripes, Express and Firebase</span>
+                                    </li>
+                                    <li> Role - <span>FullStack</span></li>
+                                    <li> View Online - <span><a href="https://jandchase-clothing.netlify.app/"
+                                                target="_blank">jandchase-clothing.netlify.app</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                    <!--  Portfolio Item Start -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="img/portfolio/netflix-clone.jpg" alt="portfolio item thumb">
+                        </div>
+                        <h3 class="portfolio-item-title">Netflix Clone</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>
+                                    This app is a Netflix Clone. It was built using React and Styled Components for the
+                                    frontend and Firebase for the backend.
+                                </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li> Created - <span>June 2021</span></li>
+                                    <li> Technologies used - <span>React, Styled Components and Firebase</span></li>
+                                    <li> Role - <span>FrontEnd</span></li>
+                                    <li> View Online - <span><a href="https://netflix-clone-nu-one.vercel.app/"
+                                                target="_blank">netflix-clone-nu-one.vercel.app</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                    <!--  Portfolio Item Start -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="img/portfolio/instagram-clone.jpg" alt="portfolio item thumb">
+                        </div>
+                        <h3 class="portfolio-item-title">Instagram Clone</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>
+                                    This app is an Instagram Clone was built using React and Tailwind CSS for the
+                                    frontend and Firebase for the backend.
+                                </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li> Created - <span>April 2021</span></li>
+                                    <li> Technologies used - <span>React, Tailwind and Firebase</span></li>
+                                    <li> Role - <span>FrontEnd</span></li>
+                                    <li> View Online - <span><a href="https://instagram-pac.vercel.app"
+                                                target="_blank">instagram-pac.vercel.app</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                    <!--  Portfolio Item Start -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="img/portfolio/tesla-clone.jpg" alt="portfolio item thumb">
+                        </div>
+                        <h3 class="portfolio-item-title">Instagram Clone</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>
+                                    This app is a Tesla Clone was built using React and Styled Components CSS for the
+                                    frontend.
+                                </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li> Created - <span>May 2021</span></li>
+                                    <li> Technologies used - <span> React and Styled components</span></li>
+                                    <li> Role - <span>FrontEnd</span></li>
+                                    <li> View Online - <span><a href="https://tesla-clone-three.vercel.app"
+                                                target="_blank">tesla-clone-three.vercel.app</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                    <!--  Portfolio Item Start -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="img/portfolio/nasa-deno.jpg" alt="portfolio item thumb">
+                        </div>
+                        <h3 class="portfolio-item-title">Nasa Deno</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Schedule a mission launch for interstellar travel to one of the Kepler Exoplanets.
+                                    NASA Mission Control Deno Project(educational purpose).
+                                </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li> Created - <span>June 2020</span></li>
+                                    <li> technologies used - <span> Typescript and Denoland </span></li>
+                                    <li> Role - <span>Backend</span></li>
+                                    <li> View Online - <span><a href="https://nasa-deno.vercel.app"
+                                                target="_blank">nasa-deno.vercel.app</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                    <!--  Portfolio Item Start -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="img/portfolio/crypto-app.jpg" alt="portfolio item thumb">
+                        </div>
+                        <h3 class="portfolio-item-title">Crypto App</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>
+                                    A cryptocurrency app. We're going to use React and multiple APIs powered by
+                                    https://rapidapi.com.
+                                </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li> Created - <span>September 2021</span></li>
+                                    <li> Technologies used - <span>React and Javascript</span></li>
+                                    <li> Role - <span>FrontEnd</span></li>
+                                    <li> View Online - <span><a href="https://crypto-aklqz4d9j-costanzopa.vercel.app"
+                                                target="_blank">crypto-aklqz4d9j-costanzopa.vercel.app</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                    <!--  Portfolio Item Start -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="img/portfolio/holyground.jpg" alt="portfolio item thumb">
+                        </div>
+                        <h3 class="portfolio-item-title">HolyGround</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>
+                                </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li> Created - <span>March 2020</span></li>
+                                    <li> Technologies used - <span>Express, Javascript and Mapbox</span></li>
+                                    <li> Role - <span>FullStack</span></li>
+                                    <li> View Online - <span><a
+                                                href="https://holy-ground-1xl2piuwk-costanzopa.vercel.app/"
+                                                target="_blank">holy-ground-1xl2piuwk-costanzopa.vercel.app</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Section End -->
+
+        <!--Contact Section Start -->
+        <section class="contact-section sec-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>contact me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Name" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Email" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Subject" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <textarea placeholder="Message" class="input-control" required></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn">send message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <div><i class="fa fa-map-marker"> Buenos Aires, Argentina</i></div>
+                            <div><i class="fa fa-envelope-o"> costanzopa@gmail.com</i></div>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>follow me</h3>
+                            <div class="social-links">
+                                <a href="https://github.com/pacostanzo"><i class="fa fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/pablo-costanzo-288313169/"><i
+                                        class="fa fa-linkedin"></i></a>
+                                <a href="https://twitter.com/pacostanzo"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/pablo.a.costanzo/"><i
+                                        class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Contact Section End -->
+
+
+    </div>
+    <!-- Main End-->
+    <!-- Portfolio Item Details Popup Start -->
+    <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <button type="button" class="btn pp-close"><i class="fa fa-times"></i></button>
+                    <div class="pp-thumbnail">
+                        <img src="img/portfolio/crypto-app.jpg" alt="pp-thumbnail">
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Item Details Popup End -->
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <!-- style switcher js -->
+    <script src="js/style-switcher.js"></script>
+</body>
+
+</html>
